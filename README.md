@@ -25,7 +25,7 @@
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/GauravMGihub/GauravMGihub/output/github-contribution-grid-snake-dark.svg"?v=2 />
+  <img src="https://raw.githubusercontent.com/GauravMGihub/GauravMGihub/output/github-contribution-grid-snake-dark.svg?v=1" />
 </p>
 
 
