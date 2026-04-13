@@ -12,12 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: Platane/snk@v3.1.0
+      - uses: Platane/snk@v3
         with:
           github_user_name: GauravMGihub
           outputs: dist/github-contribution-grid-snake-dark.svg
-          color_snake: "#bf00ff"
-          color_dots: "#0d1117,#161b22,#0e4429,#006d32,#26a641,#39d353"
+          args: >
+            --color-snake "#bf00ff"
+            --color-dots "#0d1117,#161b22,#0e4429,#006d32,#26a641,#39d353"
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
